@@ -4,7 +4,10 @@ const agePerson1 = prompt("Insert the age of person 1");
 const agePerson2 = prompt("Insert the age of person 2");
 
 if (agePerson1 > agePerson2) {
-    document.getElementById("output").innerHTML = "The first person is older than the second"
+    document.getElementById("output").innerHTML = "The first person is older than the second";
 } else if (agePerson2 > agePerson1) {
-    
+    document.getElementById("output").innerHTML = "The second person is older than the first";
+}
+else {
+    document.getElementById("output").innerHTML = "Person 1 and person 2 have the same age";
 }
