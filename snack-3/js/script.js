@@ -9,6 +9,6 @@ numberElement.innerHTML += '<p>Ciao</p>';
 
 
 //ciclo for
-for (let i = 1; i <= 6;  i++) {
-    numberElement.innerHTML += `<p>${i}</p>`
+for (let i = 0; i <= 20;  i++) {
+    console.log(i + 2);
 }
