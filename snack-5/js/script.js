@@ -6,14 +6,8 @@ const secondWord = (prompt("Type another word"));
 console.log(firstWord);
 console.log(secondWord);
 
-const firstWordLenght = firstWord.length;
-console.log(firstWordLenght);
-
-const secondWordLenght = secondWord.length;
-console.log(secondWordLenght);
-
-if (firstWord < secondWord) {
-    console.log(`${firstWord} + ${secondWord}`)
-} else if (secondWord < firstWord) {
-    console.log (`${secondWord} + ${firstWord}`)
+if ( firstWord.length >= secondWord.length ) {
+    console.log(secondWord, firstWord);
+} else {
+    console.log(firstWord, secondWord);
 }
