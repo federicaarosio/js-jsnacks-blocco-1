@@ -14,6 +14,6 @@ console.log(secondWordLenght);
 
 if (firstWord < secondWord) {
     console.log(`${firstWord} + ${secondWord}`)
-} else if (secondWord.lenght < firstWord.lenght) {
+} else if (secondWord < firstWord) {
     console.log (`${secondWord} + ${firstWord}`)
 }
